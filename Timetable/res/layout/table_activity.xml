@@ -6,10 +6,10 @@
     <LinearLayout
         android:id="@+id/tableAc_days"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:layout_alignParentTop="true"
         android:orientation="horizontal"
-        android:background="@android:color/darker_gray" >
+        android:background="@drawable/head_bg" >
 
         <TextView
             android:layout_width="30dp"
@@ -17,68 +17,75 @@
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_weight="1"
-            android:gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@android:color/white"
             android:text="一" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_weight="1"
-            android:gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@android:color/white"
             android:text="二" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_weight="1"
-            android:gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@android:color/white"
             android:text="三" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_weight="1"
-            android:gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@android:color/white"
             android:text="四" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_weight="1"
-            android:gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@android:color/white"
             android:text="五" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_weight="1"
-            android:gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@android:color/white"
             android:text="六" />
 
         <TextView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:layout_weight="1"
-            android:gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@android:color/white"
             android:text="日" />
     </LinearLayout>
 
     <RelativeLayout
+        android:id="@+id/tableAc_middle"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_below="@id/tableAc_days"
         android:orientation="vertical" >
 
-        <LinearLayout
+        <RelativeLayout
             android:id="@+id/tableAc_time"
-            android:layout_width="wrap_content"
+            android:layout_width="30dp"
             android:layout_height="fill_parent"
             android:layout_alignParentLeft="true"
-            android:orientation="horizontal" >
-
-        </LinearLayout>
+            android:orientation="vertical" >
+        </RelativeLayout>
 
         <TableLayout
             android:id="@+id/tableAc_table"
